@@ -1,0 +1,34 @@
+:root {
+  /* Color */
+  /* Primary */
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  /* Neutral */
+
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+/* font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Kumbh Sans', sans-serif; */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+}
+/* ------------------Start Footer------------------ */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* ------------------End Footer------------------ */
